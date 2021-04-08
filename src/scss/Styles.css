@@ -171,7 +171,7 @@ justify-content: center;
 .NewNode_dropdown_select {
     margin-left: 28px;
     border-radius: 35px;
-    width: 250px;
+    width: 180px;
     height: 35px;
     border: 2px solid #005fae;
     outline: none;
@@ -181,7 +181,7 @@ justify-content: center;
 .NewNode_address_input {
     margin-left: 27px;
     border-radius: 35px;
-    width: 250px;
+    width: 180px;
     height: 35px;
     border: 2px solid #005fae;
     outline: none;
