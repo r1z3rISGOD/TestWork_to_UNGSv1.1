@@ -169,7 +169,6 @@ justify-content: center;
 }
 
 .NewNode_dropdown_select {
-    margin-left: 28px;
     border-radius: 35px;
     width: 180px;
     height: 35px;
@@ -179,12 +178,14 @@ justify-content: center;
 }
 
 .NewNode_address_input {
-    margin-left: 27px;
     border-radius: 35px;
     width: 180px;
     height: 35px;
     border: 2px solid #005fae;
     outline: none;
+	display: flex;
+	flex-wrap: wrap;
+	
 }
 
 .NewNode_type {
@@ -199,15 +200,14 @@ justify-content: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
+	flex-wrap: wrap;
 }
 
 .NewNode_address {
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
-    left: 30px;
+	flex-wrap: wrap;
 }
 
 .NewNode_btn {
