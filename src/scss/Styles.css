@@ -159,6 +159,7 @@ justify-content: center;
     width: 70%;
     display: inline-block;
     max-width: 1000px;
+	min-width: 310px;
 }
 
 .NewNode_text {
@@ -192,8 +193,7 @@ justify-content: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    position: relative;
-    left: 37px;
+	flex-wrap: wrap;
 }
 
 .NewNode_name {
