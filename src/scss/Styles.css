@@ -196,6 +196,8 @@ justify-content: center;
     align-items: center;
     justify-content: center;
 	flex-wrap: wrap;
+	margin-right: 22px;
+	margin-left: 21px;
 }
 
 .NewNode_name {
@@ -211,6 +213,8 @@ justify-content: center;
     align-items: center;
     justify-content: center;
 	flex-wrap: wrap;
+		margin-right: 15px;
+	margin-left: 15px;
 }
 
 .NewNode_btn {
