@@ -13,7 +13,7 @@ export function NewNode() {
                     <option value="ЦОД">ЦОД</option>
                 </select>
             </span></h3>
-            <h3 class="NewNode_name">Наименование узла<input class="NewNode_address_input NewNode_address_input-name" type="text"></h3>
+            <h3 class="NewNode_name">Наименование<br>узла<input class="NewNode_address_input NewNode_address_input-name" type="text"></h3>
             <h3 class="NewNode_address">Адрес узла<input class="NewNode_address_input NewNode_address_input-adres" type="text"></h3>
             <div class="NewNode_btn">
             <button class="NewNode_add">Добавить</button>
