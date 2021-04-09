@@ -186,7 +186,6 @@ justify-content: center;
     border: 2px solid #005fae;
     outline: none;
     display: flex;
-    padding-left: 60px;
 }
 
 .NewNode_address_input {
@@ -197,12 +196,11 @@ justify-content: center;
     outline: none;
 	display: flex;
 	flex-wrap: wrap;
-    min-width: 180px;
-    text-align: center;	
+    min-width: 180px;	
 }
 
 .NewNode_address_input-name {
-    margin-left: 16px;
+    margin-left: 21px;
 }
 
 .NewNode_address_input-adres {
