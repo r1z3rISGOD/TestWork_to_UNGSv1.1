@@ -34,7 +34,8 @@ export function NewNode() {
          for(let i=0; i<Nodes.length; i++) {
              if (NewNodeAddress.value === Nodes[i][4]) {
              alert('Узел с таким адресом уже имеется!');
-             return 0;
+             NewNode();
+             return;
         }  
     }
          let NewNodeName = document.querySelector('.NewNode_address_input-name');
