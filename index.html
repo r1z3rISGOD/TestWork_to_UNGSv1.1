@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/scss/normalize.css">
+    <link rel='stylesheet' href='./src/scss/Styles.css'>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <style>
+        html {
+            box-sizing: border-box;
+        }
+
+        *,
+        *:after,
+        *:before {
+            box-sizing: inherit;
+        }
+        *{
+            font-family: 'Open Sans Condensed', sans-serif;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            height: 80px;
+            background: #005fae;
+            color: #fff;
+            padding: 0 0;
+            display: flex;
+            display: flex;
+            justify-content: space-between;
+        }
+        .banner_text {
+            display: flex;
+            align-items: center; 
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        .banner {
+            text-decoration: none;
+            color: #fff;
+            cursor: pointer;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        .logo img {
+            width: 75px;
+            height: 75px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        main {
+            display: flex;
+            justify-content: center;
+            padding: 0 0p;
+            overflow-y: auto;
+        }
+
+        button {
+            background: #005fae;
+            border: 2px solid #005fae;
+            cursor: pointer;
+            box-shadow: 1px 1px 3px 0px #777;
+            color: #fff;
+            padding: 10px 15px;
+            border-radius: 10px;
+            outline:none;
+        }
+
+        .button {
+            display: flex;
+            justify-content: center;
+        }
+
+        button:hover {
+            box-shadow: none;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><img src="./Images/SNGS_logo.png" alt=""></a>
+        <h2 class="banner_text"><a class="banner">СИСТЕМА КОНТРОЛЯ УЗЛАМИ ПЛАТФОРМЫ</a></h2>
+    </header>
+    <section class="data data_login">
+    </section>
+    <script src="./src/js/OurArray.js"></script>
+    <script src="./src/js/TreeToggle.js"></script>
+    <script type="module" src="./src/js/SignIn.js"></script>
+</body>
+</html>
