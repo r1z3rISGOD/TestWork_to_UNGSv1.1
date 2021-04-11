@@ -14,7 +14,7 @@ export function NewNode() {
             <option value="ЦОД">ЦОД</option>
         </select>
     </span></h3>
-    <h3 class="NewNode_name">Наименование<br>узла<input class="NewNode_address_input NewNode_address_input-name" type="text" required></h3>
+    <h3 class="NewNode_name">Наименование<br>узла<input maxlength="15" class="NewNode_address_input NewNode_address_input-name" type="text" required></h3>
     <h3 class="NewNode_address">Адрес узла<input placeholder="123.123.123.123" pattern="((^|\\.)((25[0-5])|(2[0-4]\\d)|(1\\d\\d)|([1-9]?\\d))){4}$" class="NewNode_address_input NewNode_address_input-adres" type="text" required></h3>
     </div>
     <div class="NewNode_btn">
