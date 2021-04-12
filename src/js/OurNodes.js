@@ -15,7 +15,7 @@ export function OurNodes() {
 //Все узлы из массива друг за другом записываются в разметку
     for (let value of Nodes.values()) {
       Units.innerHTML += `<li class='Units_item Units_item-${value[2]}'>
-      <img src="./Images/${value[3]}.png" alt="" class="Units_item_img">
+      <img src="./Images/${value[3]}.svg" alt="" class="Units_item_img">
       <a href="#" class="Units_item_abt">${value[1]}</a>
       </li>`;
     }
