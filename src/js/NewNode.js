@@ -37,7 +37,6 @@ let ArrFilter = Node.filter((arr) => arr[4] === `${NewNodeAddress.value}`);
              NewNode();
              return;
         }  
-    }
          let NewNodeName = document.querySelector('.NewNode_address_input-name');
          Nodes.push(['NonActive', `${NewNodeName.value}`,`${(+Nodes[Nodes.length - 1][2]) + 1}` , `${NewNodeDropdown.value}`, `${NewNodeAddress.value}`]);
          OurNodes();
