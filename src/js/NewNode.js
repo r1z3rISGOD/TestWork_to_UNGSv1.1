@@ -31,8 +31,8 @@ export function NewNode() {
      let NewNodeDropdown = document.querySelector('.NewNode_dropdown_select');
      let NewNodeAddress = document.querySelector('.NewNode_address_input-adres');
      if (NewNodeAddress.checkValidity() == true) {
-         for(let i=0; i<Nodes.length; i++) {
-             if (NewNodeAddress.value === Nodes[i][4]) {
+let ArrFilter = Node.filter((arr) => arr[4] === `${NewNodeAddress.value}`);
+         if(ArrFilter.length > 0) {
              alert('Узел с таким адресом уже имеется!');
              NewNode();
              return;
