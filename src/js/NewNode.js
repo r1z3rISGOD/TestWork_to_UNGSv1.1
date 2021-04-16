@@ -30,8 +30,8 @@ export function NewNode() {
  NewNodeAdd.addEventListener('click', function(){
      let NewNodeDropdown = document.querySelector('.NewNode_dropdown_select');
      let NewNodeAddress = document.querySelector('.NewNode_address_input-adres');
-     if (NewNodeAddress.checkValidity() == true) {
-let ArrFilter = Node.filter((arr) => arr[4] === `${NewNodeAddress.value}`);
+     if (NewNodeAddress.checkValidity() === true) {
+let ArrFilter = Nodes.filter((arr) => arr[4] === `${NewNodeAddress.value}`);
          if(ArrFilter.length > 0) {
              alert('Узел с таким адресом уже имеется!');
              NewNode();
